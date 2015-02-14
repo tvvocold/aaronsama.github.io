@@ -252,7 +252,9 @@ Like you, I like to travel around the world and I'm lucky enough to have the cha
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoiYWFyb25zYW1hIiwiYSI6InAxdU82NlEifQ.cfKxBymuzgs-HHO9vGNkSQ';
 // Create a map in the div #map
-map = L.mapbox.map('map','aaronsama.l74bikg6');
+map = L.mapbox.map('map','aaronsama.l74bikg6',{
+  scrollWheelZoom: false
+});
 map.setZoom(2);
 map.featureLayer.on('ready',function(){
   //var features = map.featureLayer.getGeoJSON().features;
