@@ -65,13 +65,13 @@ namespace :build do
 
   desc "Build _site/ for production"
   task :pro => :recompile_sass do
-    puts "\n## Compiling Sass"
-    status = system("sass --style compressed assets/scss/styles.scss:assets/css/styles.css --sourcemap=none")
-    puts status ? "Success" : "Failed"
+    # puts "\n## Compiling Sass"
+    # status = system("sass --style compressed assets/scss/styles.scss:assets/css/styles.css --sourcemap=none")
+    # puts status ? "Success" : "Failed"
     puts "\n## Building Jekyll to _site/"
     status = system("jekyll build")
     puts status ? "Success" : "Failed"
-    Rake::Task["minify"].invoke
+    # Rake::Task["minify"].invoke
   end
 end
 
