@@ -917,6 +917,16 @@ h1, h2, h3, h4 {
   /*padding: 10px;*/
 }
 
+.other-things>img, .face>img {
+  position: relative;
+  top: 25px;
+  max-height: 300px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  /*box-shadow: 0px 1px 15px rgba(0,0,0,0.45);*/
+}
+
 @media screen and (max-width: 799px) {
   .other-things {
     display: none;
@@ -935,16 +945,6 @@ h1, h2, h3, h4 {
     float: right;
     margin: 0 20px 10px 50px;
     /*padding: 10px;*/
-  }
-
-  .other-things>img, .face>img {
-    position: relative;
-    top: 25px;
-    max-height: 300px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    /*box-shadow: 0px 1px 15px rgba(0,0,0,0.45);*/
   }
 
   .other-things>img {
