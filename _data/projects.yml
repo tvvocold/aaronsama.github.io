@@ -1,0 +1,33 @@
+- name: Columbus Manager
+  role: A personal project
+  when: 2014-now
+  what: An offline app built for Chrome with Angular.js to manage GPS tracklogs recorded with V900/V990 Columbus Trackloggers and to geotag your photos.
+  who: Just me :)
+  github: https://github.com/aaronsama/MaterialColumbus
+- name: BringTheFood
+  role: Project Manager and Lead developer
+  when: 2011-now
+  where: Italy
+  who: Fondazione Bruno Kessler (in collaboration with Fondazione Banco Alimentare)
+  what: A web/mobile application to connect charities and food donors to find and organize the collection of excess food.
+  link: http://www.bringfood.org
+- name: LRIT4AE
+  role: Project Manager and Visiting Researcher
+  when: 2012-2014
+  where: "Italy, South Africa, Germany"
+  who: "Fondazione Bruno Kessler, Fraunhofer FOKUS, Rhodes University, University of Fort Hare"
+  what: A researchers mobility project between Europe and South Africa on best practices for ICT projects in low-resource environments.
+- name: Maputo Living Lab
+  role: Instructor and Summer School Coordinator
+  when: 2011-2013
+  where: Maputo (Mozambique)
+  who: "The Autonomous Province of Trento, Fondazione Bruno Kessler and the Ministry of Science and Technology of Mozambique"
+  what: Stimulating local development through ICT training and ICT4D projects. I was involved in the organization and teaching activities of the Summer Schools of ICTs and Ruby on Rails.
+- name: SAMo
+  role: Ruby on Rails developer (full stack) - my first RoR project
+  when: "2012"
+  where: Moamba (Mozambique)
+  who: "The World Bank, Fondazione Bruno Kessler and the Ministry of Education of Mozambique"
+  what: "A mobile/webtool to collect data about various procurement indicators of primary schools in the Moamba district, a rural area of Mozambique."
+  link: http://www.ict4sa.org/samo
+  github: https://github.com/ict4g/SAMo

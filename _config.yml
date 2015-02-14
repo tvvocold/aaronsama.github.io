@@ -1,0 +1,52 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+gems: ['jekyll/scholar']
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+title:       "Aaron Ciaghi - Personal Page"
+keywords:    "Aaron Ciaghi"
+description: "Ruby on Rails Developer, Project Manager, ICT4D Researcher, Homebrewer"
+source_link: "https://github.com/aaronsama/aaronsama.github.io"
+favicon:     #put a path like: "img/favicon.ico"
+touch_icon:  #put a path like: "img/apple-touch-icon.png"
+google_analytics_key: UA-38315011-1
+
+excerpt_separator: "" #fixes tag not closed bug
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#95C237'
+  purple:    '#c869bf'
+  orange:    '#E7A423'
+  turquoise: '#0fbfcf'
+
+#Jekyll Scholar
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference | replace: '<i>','<strong>' | replace: '</i>', '</strong>'}}"
+
+  query: "@*"
